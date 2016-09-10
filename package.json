@@ -1,0 +1,13 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+	"build:ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file='index.ios.js' --bundle-output='./ios/AwesomeProject/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'"
+  },
+  "dependencies": {
+    "react": "15.3.1",
+    "react-native": "0.32.0"
+  }
+}
